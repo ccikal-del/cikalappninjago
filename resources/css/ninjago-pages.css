@@ -1,0 +1,17 @@
+.ninja-hero-img{
+    width: min(220px, 70vw);
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+}
+
+@media (max-width: 390px){
+    .ninja-hero-img{
+        width: min(170px, 55vw);
+    }
+}
+
+
+
+
